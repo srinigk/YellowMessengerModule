@@ -1,0 +1,6 @@
+framework module Pods_YellowMessengerModuleExampleApp {
+  umbrella header "Pods-YellowMessengerModuleExampleApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

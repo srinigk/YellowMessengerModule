@@ -1,0 +1,24 @@
+{
+  "name": "YellowMessengerModule",
+  "version": "0.0.1",
+  "summary": "A short description of YellowMessengerModule.",
+  "description": "A  pod for Yellow messenger plugin. This is developed by ConnectM for inernal use.",
+  "homepage": "https://github.com/srinig/YellowMessengerModule",
+  "license": "MIT",
+  "authors": {
+    "G Srinivasa": "srinivasa.g@connectm.com"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "https://github.com/srinigk/YellowMessengerModule.git",
+    "tag": "0.0.1"
+  },
+  "source_files": [
+    "Classes",
+    "Classes/**/*.{h,m}"
+  ],
+  "exclude_files": "Classes/Exclude",
+  "public_header_files": "Classes/**/*.h"
+}

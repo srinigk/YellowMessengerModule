@@ -21,9 +21,8 @@
 		93F6D53925A01404004EFA9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93F6D53725A01404004EFA9E /* LaunchScreen.storyboard */; };
 		93F6D54425A01404004EFA9E /* YellowMessengerModuleExampleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F6D54325A01404004EFA9E /* YellowMessengerModuleExampleAppTests.swift */; };
 		93F6D54F25A01404004EFA9E /* YellowMessengerModuleExampleAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F6D54E25A01404004EFA9E /* YellowMessengerModuleExampleAppUITests.swift */; };
-		93F6D55B25A01478004EFA9E /* YellowMessengerModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93F6D50425A011E6004EFA9E /* YellowMessengerModule.framework */; };
-		93F6D55C25A01478004EFA9E /* YellowMessengerModule.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 93F6D50425A011E6004EFA9E /* YellowMessengerModule.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		93F6D56125A01546004EFA9E /* YellowMessengerModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F6D56025A01546004EFA9E /* YellowMessengerModule.swift */; };
+		D4AC147AF854760155EAF735 /* Pods_YellowMessengerModuleExampleApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186AEB160EFD45FEFD294D7F /* Pods_YellowMessengerModuleExampleApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,30 +47,11 @@
 			remoteGlobalIDString = 93F6D52925A013FE004EFA9E;
 			remoteInfo = YellowMessengerModuleExampleApp;
 		};
-		93F6D55D25A01478004EFA9E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 93F6D4FB25A011E6004EFA9E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 93F6D50325A011E6004EFA9E;
-			remoteInfo = YellowMessengerModule;
-		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		93F6D55F25A01478004EFA9E /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				93F6D55C25A01478004EFA9E /* YellowMessengerModule.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
+		186AEB160EFD45FEFD294D7F /* Pods_YellowMessengerModuleExampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YellowMessengerModuleExampleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F312ED6C0E55DD8A8C02953 /* Pods-YellowMessengerModuleExampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YellowMessengerModuleExampleApp.debug.xcconfig"; path = "Target Support Files/Pods-YellowMessengerModuleExampleApp/Pods-YellowMessengerModuleExampleApp.debug.xcconfig"; sourceTree = "<group>"; };
 		93F6D50425A011E6004EFA9E /* YellowMessengerModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YellowMessengerModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93F6D50725A011E6004EFA9E /* YellowMessengerModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YellowMessengerModule.h; sourceTree = "<group>"; };
 		93F6D50825A011E6004EFA9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -96,6 +76,7 @@
 		93F6D54E25A01404004EFA9E /* YellowMessengerModuleExampleAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowMessengerModuleExampleAppUITests.swift; sourceTree = "<group>"; };
 		93F6D55025A01404004EFA9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93F6D56025A01546004EFA9E /* YellowMessengerModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YellowMessengerModule.swift; sourceTree = "<group>"; };
+		E67160EB238BA0954F836C5D /* Pods-YellowMessengerModuleExampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YellowMessengerModuleExampleApp.release.xcconfig"; path = "Target Support Files/Pods-YellowMessengerModuleExampleApp/Pods-YellowMessengerModuleExampleApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,7 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93F6D55B25A01478004EFA9E /* YellowMessengerModule.framework in Frameworks */,
+				D4AC147AF854760155EAF735 /* Pods_YellowMessengerModuleExampleApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +130,7 @@
 				93F6D54D25A01404004EFA9E /* YellowMessengerModuleExampleAppUITests */,
 				93F6D50525A011E6004EFA9E /* Products */,
 				93F6D55A25A01478004EFA9E /* Frameworks */,
+				FA9771FFDDD3F7126ED14EA4 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -221,8 +203,18 @@
 		93F6D55A25A01478004EFA9E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				186AEB160EFD45FEFD294D7F /* Pods_YellowMessengerModuleExampleApp.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA9771FFDDD3F7126ED14EA4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F312ED6C0E55DD8A8C02953 /* Pods-YellowMessengerModuleExampleApp.debug.xcconfig */,
+				E67160EB238BA0954F836C5D /* Pods-YellowMessengerModuleExampleApp.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,15 +271,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 93F6D55125A01404004EFA9E /* Build configuration list for PBXNativeTarget "YellowMessengerModuleExampleApp" */;
 			buildPhases = (
+				28ECC2E068A71E80AB596161 /* [CP] Check Pods Manifest.lock */,
 				93F6D52625A013FE004EFA9E /* Sources */,
 				93F6D52725A013FE004EFA9E /* Frameworks */,
 				93F6D52825A013FE004EFA9E /* Resources */,
-				93F6D55F25A01478004EFA9E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				93F6D55E25A01478004EFA9E /* PBXTargetDependency */,
 			);
 			name = YellowMessengerModuleExampleApp;
 			productName = YellowMessengerModuleExampleApp;
@@ -424,6 +415,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		28ECC2E068A71E80AB596161 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YellowMessengerModuleExampleApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		93F6D50025A011E6004EFA9E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -486,11 +502,6 @@
 			isa = PBXTargetDependency;
 			target = 93F6D52925A013FE004EFA9E /* YellowMessengerModuleExampleApp */;
 			targetProxy = 93F6D54B25A01404004EFA9E /* PBXContainerItemProxy */;
-		};
-		93F6D55E25A01478004EFA9E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 93F6D50325A011E6004EFA9E /* YellowMessengerModule */;
-			targetProxy = 93F6D55D25A01478004EFA9E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -721,6 +732,7 @@
 		};
 		93F6D55225A01404004EFA9E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F312ED6C0E55DD8A8C02953 /* Pods-YellowMessengerModuleExampleApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -738,6 +750,7 @@
 		};
 		93F6D55325A01404004EFA9E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E67160EB238BA0954F836C5D /* Pods-YellowMessengerModuleExampleApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
